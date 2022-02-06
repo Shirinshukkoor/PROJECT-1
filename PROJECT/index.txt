@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title<PERSONAL PORTFOLIO</title>
+
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+	<!--navigation bar-->
+
+	<nav class="navbar">
+		<ul class="link-group active">
+			<li class="link"><a href="">HOME</a></li>
+			<li class="link"><a href="#div1">ABOUT</a></li>
+			<li class="link"><a href="#div2">SKILLS</a></li>
+			<li class="link"><a href="#">EDUCATION</a></li>
+			<li class="link"><a href="#">CONTACT</a></li>
+		</ul>
+	</nav>
+	
+	<!--home section-->
+	
+	<section class="home-section">
+		<h1 class="heading">Hello, i am <br> Shirin shukkoor</h1>
+		<img src="https://cdn.dribbble.com/users/2131993/screenshots/15628402/media/7bb0d27e44d8c2eff47276ae86bfd6a3.png?compress=1&resize=400x300" class="home-img" alt="">
+	</section>
+
+	<!--about section-->
+	<div id="div1">
+	<section class="about-section active">
+		<div class="about">
+			<div class="about-img">
+				<img src="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBvcnRmb2xpbyUyMGhlYWRlcnxlbnwwfHwwfHw%3D&w=1000&q=80" class="about-image" alt="">
+				<button class="download-cv">Download CV</button>
+			</div>
+			
+			<p class="info">Hi all!! I am Shirin Shukkoor,<br> an IT undergraduate who loves to solve problems and a quick learner.Seeking to leverage
+ acquired academic knowledge and experience to solve real world problems. Technology enthusiast who is curious to learn new things and experiment
+ with acquired knowledge.<br>
+Basically, I belong to Kerala. I have been living in Malappuram dist . I stay here with my family.
+Besides my parents, there is a younger brother and a sister in my family. Currently, I am exploring my Btech degree at Government Engineering College Palakkad.
+I am very interested in coding . That was the reason I chose to pursue higher studies in IT(Information Technology).
+ Post that, my internship experience and other practical projects in the college further boosted my interest in Programming and Web developing
+ as a full-time career option.<br>
+Not only am I passionate about the field I graduated in IT, I am also inclined towards creative activities such as dancing, painting, acting, etc. 
+I have always been an active student in school and college. I have been participated in many cultural events during my school and college days and have won many awards.
+In my free time, I enjoy going out with friends and trying new cuisines. I also enjoy watching movies, listening to music, reading, working out, and going on road 
+trips.</p>
+	</div>
+	</section>
+	<!--skill section-->
+<div id="div2">
+	<div class="skill">
+		<h1 class="heading2">skills</h1>
+		<div class="skill-container">
+			<div class="skill-card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh5ahwPA75te4o1e6w8Z4iLOKl95o31QQXDQ&usqp=CAU" class="skill-img" alt="">
+				<div class="skill-lvl">80%</div>
+				<h1 class="skill-name">HTML</div>
+				
+			</div>
+
+
+			<div class="skill-card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8JWYNll068kg3Kprv-ouIl4a2ouXmpoPmN1gDEy1O_oQcu0DTF1XRBzmeDzNIsy0wUfo&usqp=CAU" class="skill-img" alt="">
+				<div class="skill-lvl">75%</div>
+				<h1 class="skill-name">CSS</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>	
